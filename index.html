@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>乌龙指实验室 | 错价观察与乌龙指识别训练</title>
+    <meta
+      name="description"
+      content="面向有交易基础的人，系统学习错价识别、观察清单、风险边界和复盘方法。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gaoyetao0323.github.io/wulongzhi-lab/" />
+    <meta property="og:title" content="乌龙指实验室 | 错价观察与乌龙指识别训练" />
+    <meta property="og:description" content="系统学习参考坐标系、小池子/大池子、等错来和复盘方法。不承诺收益，不提供喊单。" />
+    <meta property="og:image" content="https://gaoyetao0323.github.io/wulongzhi-lab/assets/hero-wulongzhi.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="乌龙指实验室 | 错价观察与乌龙指识别训练" />
+    <meta name="twitter:description" content="把错价观察拆成清单、模板、风控和复盘任务。" />
+    <meta name="twitter:image" content="https://gaoyetao0323.github.io/wulongzhi-lab/assets/hero-wulongzhi.png" />
+    <link rel="canonical" href="https://gaoyetao0323.github.io/wulongzhi-lab/" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回顶部">
+        <span class="brand-mark">乌</span>
+        <span>乌龙指实验室</span>
+      </a>
+      <nav class="main-nav" aria-label="主要导航">
+        <a href="#framework">框架</a>
+        <a href="#product">产品</a>
+        <a href="#fit">测评</a>
+        <a href="#apply">报名</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="训练营介绍">
+        <img
+          class="hero-image"
+          src="./assets/hero-wulongzhi.png"
+          alt="交易屏幕上出现异常价格尖刺，一位交易者正在审视盘口"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Mispricing Research • Fat Finger Playbook</p>
+          <h1>别再问哪里捡乌龙指，先学会判断它是不是乌龙指。</h1>
+          <p class="hero-copy">
+            一个面向有交易基础和工具能力人群的研究产品：用“参考坐标系、小池子/大池子、等错来、生态边界”拆解错价机会，提供清单、模板、复盘任务和小范围讨论。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#product">查看付费方案</a>
+            <a class="button ghost" href="#fit">先做匹配测评</a>
+          </div>
+          <dl class="hero-stats" aria-label="产品承诺">
+            <div>
+              <dt>35 篇</dt>
+              <dd>公开文章主题拆解</dd>
+            </div>
+            <div>
+              <dt>4 模块</dt>
+              <dd>识别、蹲守、风控、复盘</dd>
+            </div>
+            <div>
+              <dt>0 承诺</dt>
+              <dd>不承诺收益和机会</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="pain band">
+        <div class="section-head">
+          <p class="eyebrow">Why This Exists</p>
+          <h2>学会判断错价，比追逐故事更重要。</h2>
+          <p>
+            公开材料里反复出现的核心不是神秘代码，而是：很多人把“跌得多”误认为“错价”，把“历史上会回去”误认为“套利”，把“看见机会”误认为“可以稳定复制”。这里把这些误区拆成可以练习的判断清单和复盘流程。
+          </p>
+        </div>
+        <div class="pain-grid">
+          <article>
+            <span>01</span>
+            <h3>不知道参考系</h3>
+            <p>没有 B 厅、B 平台或同类可对冲标的时，价格跌穿不等于乌龙指，可能只是正常风险暴露。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>不会等错来</h3>
+            <p>错单来自概率，不来自喊单。你需要的是候选清单、观察流程和复盘纪律。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>把冒险当套利</h3>
+            <p>不做同时对冲、不算退出深度、不设仓位上限，短期胜率越高，越容易在最后一次归零。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="framework" id="framework">
+        <div class="section-head compact">
+          <p class="eyebrow">Core Framework</p>
+          <h2>把“捡乌龙指”拆成一套可练习的方法。</h2>
+        </div>
+        <div class="framework-layout">
+          <div class="framework-tabs" role="tablist" aria-label="方法模块">
+            <button class="framework-tab active" type="button" data-tab="axis" aria-selected="true">
+              参考坐标系
+            </button>
+            <button class="framework-tab" type="button" data-tab="pool" aria-selected="false">
+              小池子/大池子
+            </button>
+            <button class="framework-tab" type="button" data-tab="wait" aria-selected="false">
+              等错来
+            </button>
+            <button class="framework-tab" type="button" data-tab="ethic" aria-selected="false">
+              生态边界
+            </button>
+          </div>
+          <div class="framework-panel" id="frameworkPanel">
+            <p class="tag">第一模块</p>
+            <h3>先找同一标的的“B 厅”，再谈错价。</h3>
+            <p>
+              判断乌龙指的关键不是跌停、暴跌或影线，而是同一时间是否存在可验证的参考坐标：同平台不同规格、不同平台同品种、可换算的现货/期货/份额，或者可以同步锁定风险的一组标的。
+            </p>
+            <ul>
+              <li>参考系判断清单。</li>
+              <li>同标的映射表模板。</li>
+              <li>不成立案例库，帮助你少踩坑。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="product band" id="product">
+        <div class="section-head">
+          <p class="eyebrow">Plans</p>
+          <h2>按你的学习阶段选择。</h2>
+          <p>
+            从入门资料、模板训练到微信小圈子，选择你当下最需要的学习深度。已购买资料包的用户，7 天内升级观察模板课可抵扣 ¥99。
+          </p>
+        </div>
+        <div class="pricing-principles" aria-label="定价策略">
+          <div>
+            <strong>先看懂概念</strong>
+            <span>¥99 建立基础判断框架，适合先了解方法边界。</span>
+          </div>
+          <div>
+            <strong>再拿到工具</strong>
+            <span>¥299 包含模板、计算器和一次作业点评，适合系统学习。</span>
+          </div>
+          <div>
+            <strong>需要陪跑再升级</strong>
+            <span>¥999 适合需要微信小圈子、标签朋友圈和定期复盘的人。</span>
+          </div>
+          <div>
+            <strong>升级不浪费</strong>
+            <span>已购买资料包可在 7 天内抵扣升级。</span>
+          </div>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <p class="plan">入门资料包</p>
+            <h3>¥99</h3>
+            <p class="price-anchor">入门学习 · 可抵扣升级</p>
+            <p class="price-meta">先建立判断框架。</p>
+            <p>适合先了解乌龙指识别的基本逻辑。购买后 7 天内升级 ¥299，可抵扣 ¥99。</p>
+            <ul>
+              <li>乌龙指识别 20 问</li>
+              <li>A/B 厅参考系速查表</li>
+              <li>错误机会反例清单</li>
+            </ul>
+            <a class="button secondary" href="#apply" data-plan="入门资料包">留下微信</a>
+          </article>
+          <article class="price-card featured">
+            <span class="recommend-badge">最受欢迎</span>
+            <p class="plan">观察模板课</p>
+            <h3>¥299</h3>
+            <p class="price-anchor">完整工具 · 推荐选择</p>
+            <p class="price-meta">模板、计算器、点评一次配齐。</p>
+            <p>适合已有交易账户和基础数据处理能力的人，先把观察流程和复盘方法搭起来。</p>
+            <ul>
+              <li>坑位筛选表</li>
+              <li>错价缓冲计算器</li>
+              <li>7 天复盘作业模板</li>
+              <li>一次作业点评</li>
+            </ul>
+            <a class="button primary" href="#apply" data-plan="观察模板课">留下微信咨询</a>
+          </article>
+          <article class="price-card">
+            <p class="plan">闭门研究微信小圈子</p>
+            <h3>¥999</h3>
+            <p class="price-anchor">微信小圈子 · 标签可见</p>
+            <p class="price-meta">适合需要持续复盘和内容提醒的人。</p>
+            <p>加入微信小圈子，查看标签可见朋友圈内容，并围绕公开市场案例、观察记录和复盘作业做小范围讨论。不提供喊单，不承诺收益。</p>
+            <ul>
+              <li>4 周主题拆解</li>
+              <li>每周一次闭门复盘</li>
+              <li>候选坑位评分表</li>
+              <li>不做收益承诺</li>
+            </ul>
+            <a class="button secondary" href="#apply" data-plan="闭门研究微信小圈子">申请加入</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="fit" id="fit">
+        <div class="section-head">
+          <p class="eyebrow">Readiness Check</p>
+          <h2>先确认这套学习是否适合你。</h2>
+          <p>
+            如果你接受低频机会、重视风险记录、愿意用公开信息做复盘，可以先做这个简单测评。
+          </p>
+        </div>
+        <div class="fit-grid">
+          <form class="checklist" id="checklist">
+            <label>
+              <input type="checkbox" value="18" />
+              <span>我理解乌龙指需要同一标的或可换算标的作为参考系。</span>
+            </label>
+            <label>
+              <input type="checkbox" value="16" />
+              <span>我不会把“跌停后可能反弹”当成套利。</span>
+            </label>
+            <label>
+              <input type="checkbox" value="16" />
+              <span>我接受机会可能几周、几个月都不出现。</span>
+            </label>
+            <label>
+              <input type="checkbox" value="16" />
+              <span>我能记录盘口、订单、参考价、费用和退出路径。</span>
+            </label>
+            <label>
+              <input type="checkbox" value="18" />
+              <span>我只研究公开市场机会，不做漏洞攻击或诱导错单。</span>
+            </label>
+            <label>
+              <input type="checkbox" value="16" />
+              <span>我明白课程和模板不提供收益承诺。</span>
+            </label>
+          </form>
+          <aside class="score-card" aria-live="polite">
+            <div class="score-ring" id="scoreRing">
+              <span id="scoreValue">0</span>
+            </div>
+            <h3 id="scoreTitle">先做测评</h3>
+            <p id="scoreText">如果你需要的是喊单、内幕或固定收益承诺，这里不适合你。</p>
+            <a class="button primary hidden" id="scoreCta" href="#apply">进入报名表</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="case-band band">
+        <div class="section-head compact">
+          <p class="eyebrow">Learning Notes</p>
+          <h2>后续会持续更新的学习主题。</h2>
+        </div>
+        <div class="case-grid">
+          <article>
+            <h3>识别型文章</h3>
+            <p>题目方向：为什么跌停不是乌龙指、A 厅 B 厅是什么、黄金规格差如何形成参考系。</p>
+          </article>
+          <article>
+            <h3>误区型文章</h3>
+            <p>题目方向：抢跌停板为什么会爆仓、数据没骗你但你仍会被骗、无对冲不是套利。</p>
+          </article>
+          <article>
+            <h3>复盘型文章</h3>
+            <p>题目方向：等错来的观察成本、低密度场景如何记录、错价复盘表怎么写。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="apply" id="apply">
+        <div class="apply-copy">
+          <p class="eyebrow">Start</p>
+          <h2>留下微信，先沟通再付款</h2>
+          <p>
+            网站先用于了解产品和判断是否匹配。你可以留下微信号和意向方案，我会在后台看到后添加你；也可以主动加我微信，备注“乌龙指”。
+          </p>
+          <div class="contact-card">
+            <img class="wechat-qr" src="./assets/wechat-contact-qr.png" alt="微信二维码，扫码添加乌龙指实验室" />
+            <div class="wechat-info">
+              <span>我的微信</span>
+              <strong id="wechatId">17858138619</strong>
+              <button type="button" id="copyWechat">复制微信号</button>
+            </div>
+          </div>
+          <p class="wechat-note">加微信请备注：乌龙指</p>
+          <div class="social-proof">
+            <a href="https://mp.weixin.qq.com/s/denhGflK9swmsxwM7kx2Iw" target="_blank" rel="noreferrer">
+              查看公众号文章
+            </a>
+            <a href="https://x.com/Fat_finger_pick" target="_blank" rel="noreferrer">
+              查看 X / Twitter
+            </a>
+          </div>
+        </div>
+        <div class="lead-form static-contact">
+          <h3>购买 / 咨询方式</h3>
+          <p>
+            请直接扫码或复制微信号添加，备注“乌龙指 + 想了解的方案”。我会在微信里确认基础、意向和交付方式。
+          </p>
+          <ul>
+            <li>入门资料包：备注“乌龙指资料包”</li>
+            <li>观察模板课：备注“乌龙指模板课”</li>
+            <li>闭门研究微信小圈子：备注“乌龙指小圈子”</li>
+          </ul>
+          <button class="button primary" type="button" id="copyWechatSecondary">复制微信号</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </div>
+      </section>
+
+      <section class="boundary band" id="boundary">
+        <div class="section-head compact">
+          <p class="eyebrow">Risk Notice</p>
+          <h2>学习边界</h2>
+        </div>
+        <div class="boundary-list">
+          <article>
+            <h3>不承诺收益</h3>
+            <p>页面所有付费产品只交付研究框架、模板和复盘，不承诺任何收益、胜率或机会频率。</p>
+          </article>
+          <article>
+            <h3>不教诱导错单</h3>
+            <p>只研究公开市场里的自然错价，不鼓励设托、欺骗、操纵或利用系统漏洞。</p>
+          </article>
+          <article>
+            <h3>不替代投资建议</h3>
+            <p>用户需要自行判断交易、法律、税务和平台规则风险，课程不构成投资建议。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="sources">
+        <div class="section-head compact">
+          <p class="eyebrow">Further Reading</p>
+          <h2>转载全文：现有相关公众号公开文章</h2>
+          <p>
+            以下链接均跳转至公众号原文，方便集中查看、逐篇阅读和复盘。
+          </p>
+        </div>
+        <div class="source-links">
+          <a href="https://mp.weixin.qq.com/s/et0YIqFg0ItZ9NKxexwa8g" target="_blank" rel="noreferrer">
+            你以为他讲的是捡乌龙指？不不不，远大于此
+          </a>
+          <a href="https://mp.weixin.qq.com/s/XeRqDR7yoEQ6fatX5wvhpA" target="_blank" rel="noreferrer">
+            一文把如何识别乌龙指讲透
+          </a>
+          <a href="https://mp.weixin.qq.com/s?__biz=MzU3NDc5Nzc0NQ==&amp;mid=2247529753&amp;idx=1&amp;sn=f7984aed7b204229376ded5f5fe60572&amp;chksm=fd2ed7c7ca595ed16b39290784204a1b5acbb50bb532d26076f7d055a4ca5beba23d82b8768d#rd" target="_blank" rel="noreferrer">
+            支付宝的错单，完美地诠释了什么是等错来
+          </a>
+          <a href="https://mp.weixin.qq.com/s/whdESS3mTQV8pkCFhm3hTA" target="_blank" rel="noreferrer">
+            抢跌停板，是不是一种好的套利方案？
+          </a>
+          <a href="https://mp.weixin.qq.com/s/1rTkfjVUcMZmYR_0HhJ6JQ" target="_blank" rel="noreferrer">
+            从巴菲特的亏损案例看：捡乌龙指也需要持仓纪律
+          </a>
+          <a href="https://mp.weixin.qq.com/s/u4VsH5J_e2r9FfXR_VnhKg" target="_blank" rel="noreferrer">
+            真实交易很枯燥：把赚钱动作和投资爽感分开
+          </a>
+          <a href="https://mp.weixin.qq.com/s/HPMXZV6srE7TJBd4C-P54A" target="_blank" rel="noreferrer">
+            耐心与执行：为什么很多人知道方法也留不住结果
+          </a>
+          <a href="https://mp.weixin.qq.com/s/ynO-je3bOXqqyCuJ5CiYhQ" target="_blank" rel="noreferrer">
+            聚焦一个可执行点：把知识变成赚钱动作
+          </a>
+          <a href="https://mp.weixin.qq.com/s/PM6MKQlX7ayXwXk9FC-pgw" target="_blank" rel="noreferrer">
+            差异化竞争：为什么要从小众交叉点切入
+          </a>
+          <a href="https://mp.weixin.qq.com/s/n8i2osoh4mBsq08dbZvsXw" target="_blank" rel="noreferrer">
+            小众机会与高密度竞争：如何判断值得蹲守的场景
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>乌龙指实验室仅提供教育研究材料、模板和复盘训练，不构成投资建议。</p>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
